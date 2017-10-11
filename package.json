@@ -1,0 +1,11 @@
+{
+  "name": "example1",
+  "version": "1.0.0",
+  "description": "MoSPortfolio Example 1",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "author": "Aaron DuBenion",
+  "license": "ISC"
+}
