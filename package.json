@@ -1,11 +1,20 @@
 {
-  "name": "example1",
-  "version": "1.0.0",
-  "description": "MoSPortfolio Example 1",
-  "main": "index.js",
-  "scripts": {
-    "start": "webpack-dev-server --hot"
+  "name": "pet-shop-example",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://adubenion.github.io/#/Portfolio/",
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.14"
   },
-  "author": "Aaron DuBenion",
-  "license": "ISC"
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
 }

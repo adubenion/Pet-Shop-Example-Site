@@ -1,0 +1,71 @@
+body {
+	background-color:#e8c599;
+}
+
+#wrapper {
+	max-width:800px;
+	max-height:100%;
+	margin:0 auto;
+	text-align:center;
+}
+
+button {
+	size:large;
+}
+
+
+header {
+	font-size:42px;
+	}
+
+nav {
+
+	font-size:24px;
+}
+
+nav a {
+	padding-left:15px;
+	padding-right:15px;
+	min-height:100%;
+	display:inline-flex;
+}
+
+a:link {
+	color:white;
+}
+
+a:visited {
+	color:grey;
+}
+
+.header {
+	color:white;
+	background-color:#442e0b;
+	text-align:center;
+}
+
+
+.footer {
+	color:white;
+	background-color:#442e0b;
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+
+
+.logos{
+	text-align:right;
+}
+
+img {
+    max-width: 99%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    margin:0;
+}
+
+.products {
+	display:inline-flex;
+}
